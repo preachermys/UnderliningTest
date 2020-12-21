@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9AE80DB42590AD2E00132788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE80DB32590AD2E00132788 /* AppDelegate.swift */; };
-		9AE80DB62590AD2E00132788 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE80DB52590AD2E00132788 /* SceneDelegate.swift */; };
 		9AE80DB82590AD2E00132788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE80DB72590AD2E00132788 /* ViewController.swift */; };
 		9AE80DBB2590AD2E00132788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE80DB92590AD2E00132788 /* Main.storyboard */; };
 		9AE80DBD2590AD3100132788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AE80DBC2590AD3100132788 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		9AE80DB02590AD2E00132788 /* UnderliningTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnderliningTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE80DB32590AD2E00132788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9AE80DB52590AD2E00132788 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		9AE80DB72590AD2E00132788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9AE80DBA2590AD2E00132788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AE80DBC2590AD3100132788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				9AE80DB32590AD2E00132788 /* AppDelegate.swift */,
-				9AE80DB52590AD2E00132788 /* SceneDelegate.swift */,
 				9AE80DB72590AD2E00132788 /* ViewController.swift */,
 				9AE80DB92590AD2E00132788 /* Main.storyboard */,
 				9AE80DBC2590AD3100132788 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				9AE80DB82590AD2E00132788 /* ViewController.swift in Sources */,
 				9AE80DB42590AD2E00132788 /* AppDelegate.swift in Sources */,
-				9AE80DB62590AD2E00132788 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

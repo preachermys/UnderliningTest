@@ -7,14 +7,22 @@
 //
 
 import UIKit
+import Swift
 
 class ViewController: UIViewController {
+    @IBOutlet weak var lab: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let mas = NSMutableAttributedString(string: "Buy beer")
+        let under : NSUnderlineStyle = [.double, .patternDash]
+        mas.addAttributes([
+            .underlineStyle: under.rawValue
+            ], range: NSMakeRange(4, mas.length-4))
+
+        
+        self.lab.attributedText = mas
+    
     }
-
-
 }
-
